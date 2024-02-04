@@ -1,0 +1,71 @@
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#d30f0f;
+  }
+  
+  li {
+display: flex;  
+width: 120px;
+padding: 7px;
+  float: left;
+    text-align: centre;
+    
+    
+  }
+  
+  li button {
+    background-color: #a71f1f;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    flex-grow: 0.5;
+ }
+li button:hover{
+  background-color: aliceblue;
+  color: black;
+}
+  
+  .body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .h1 {
+    margin-top: 62px;
+    background-color: #d62424;
+    font-size: 2em; /* Adjust the font size as needed */
+    color: #ffffff; /* Set the text color */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Convert text to uppercase */
+  }
+  
+
+
+  .img{
+    border-radius: 20px;
+    height: 300px;
+    width: 500px;
+    content: url("/ducati.jpg");
+  }
+  .header{
+    position: fixed;
+    width: 100% ;
+    top: 0;
+  }
+  .logo{
+    height: 50px;
+    width: 80px;
+    content: url("/ducat.jpg");
+  }

@@ -1,0 +1,22 @@
+.footer {
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #d10e0e;
+    color: white;
+    
+    
+  }
+  .footer a{
+    color: rgb(238, 244, 248);
+    font-size: larger;
+  }
+
+ 
+.copyright{
+  font-size: larger;
+  background-color: #ac0e0e;
+   margin: -20px;
+   margin-top: 9px;
+}
+

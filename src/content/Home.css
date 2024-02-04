@@ -1,0 +1,16 @@
+.img{
+    margin-top: 10px;
+    border-radius: 5px;
+    }
+
+    img:hover{
+        background-color: aqua;
+        color: antiquewhite;
+        object-fit: cover;
+        transition: transform 0.9s ease-in-out;
+    }
+.content{
+    margin-top: 12px;
+    text-align: center;
+    margin: 20px;
+}
