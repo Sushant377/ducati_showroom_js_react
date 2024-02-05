@@ -1,0 +1,68 @@
+.wed-card{
+    background: url('frame.jpg');
+    background-size: cover;
+
+    border: 10px solid #290303;
+    display: flex;
+    width: 550px;
+    height: 800px;
+    flex-direction: column;
+     margin:auto ;
+     align-items:center ;
+     padding: 20px;
+     margin:44px ;
+     
+}
+.wed-images{
+    
+  padding-bottom: 5px;
+    display: flex;
+    gap: 60px;
+
+
+}
+.wed-image1{
+    margin-left: -45px;
+    height: 150px;
+   
+}
+.wed-image2{
+    height: 140px;
+    border-radius: 50%;
+   
+}
+.children{
+    color:rgb(253, 184, 33);
+}
+.title-card{
+    padding-top: 100px;
+    color:  rgb(252, 184, 38);
+    font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.behulasangabehuli{
+    display: flex;
+    gap: 39px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xxx-large;
+    color: rgb(253, 184, 33);
+
+    
+}
+.baibahik_karyekram{
+    display: flex;
+    color: rgb(253, 184, 33);
+    gap: 50px;
+    padding: 17px;
+    margin: 5px;
+    border: 3px solid rgb(197, 130, 6);
+}
+.ayodhyapariwar{
+    padding: 10px;
+    color: rgb(250, 172, 4);
+    /* background-color:  rgba(214, 146, 146, 0.5) ; */
+}
+.miti_bar{
+    color: rgb(250, 172, 4);
+    text-align: center;
+}
