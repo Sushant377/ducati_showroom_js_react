@@ -14,10 +14,10 @@ function Home() {
             <ReadMoreButton text={longText} maxLength={100} />
           </div>
         </div>
-        <img src="/ducati.jpg" className="img" alt="jhgftyd" />
+        <img src="/ducati.jpg" className="bike_img" alt="jhgftyd" />
       </div>
       <video
-        width="60%"
+        width="50%"
         controls
         autoPlay
         style={{

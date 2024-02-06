@@ -16,7 +16,7 @@ function Footer() {
             <a href="https://sushanlamichhane.com.np/">
               sushanlamichhane.com.np
             </a>
-          </div>{" "}
+          </div>
         </footer>
       </div>
     </div>

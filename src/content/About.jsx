@@ -24,7 +24,12 @@ function About() {
   return (
     <div className="about">
       {cards.map((card, index) => (
-        <Card key={index} title={card.title} image={card.image} />
+        <Card
+          key={index}
+          title={card.title}
+          image={card.image}
+          specs={card.specs}
+        />
       ))}
     </div>
   );
