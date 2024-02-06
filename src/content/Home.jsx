@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+
 import ReadMoreButton from "./home/readmore/readmore";
 import "./Home.css";
 function Home() {
@@ -11,13 +12,17 @@ function Home() {
         <div className="content">
           <div>
             <h1>Welcome Ducatian's</h1>
-            <ReadMoreButton text={longText} maxLength={100} />
+            <div>
+              <ReadMoreButton text={longText} maxLength={200} />
+            </div>
+          </div>
+          <div>
+            <img src="/t_bike2.png" className="bike_img" alt="jhgftyd" />
           </div>
         </div>
-        <img src="/ducati.jpg" className="bike_img" alt="jhgftyd" />
       </div>
       <video
-        width="50%"
+        width="700px"
         controls
         autoPlay
         style={{

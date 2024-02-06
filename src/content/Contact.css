@@ -29,6 +29,7 @@ submitbutton {
   background-color: #df1515;
   color: #ffffff;
   padding: 12px;
+  margin-top: 15px;
   border: none;
   border-radius: 17px;
   cursor: pointer;
@@ -42,4 +43,6 @@ submitbutton:hover {
 }
 .contactbody{
     margin-bottom: 20px;
+    margin-top: 80px;
+    
 }

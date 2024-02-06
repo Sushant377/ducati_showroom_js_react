@@ -8,7 +8,7 @@ import { useState } from "react";
 function App() {
   const [state, setState] = useState("Home");
 
-  const title = "welcome to Ducati showroom";
+  const title = "Welcome Ducatian's";
 
   const nav = {
     home: "Home",

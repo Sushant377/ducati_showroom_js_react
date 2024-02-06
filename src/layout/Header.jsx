@@ -5,7 +5,7 @@ function Navbar(props) {
 
   return (
     <div>
-      <div className="header" style={{ height: "60px" }}>
+      <div className="header" style={{ height: "65px" }}>
         <ul style={{ height: "100%" }}>
           <li>
             <a className="logo"></a>

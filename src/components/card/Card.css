@@ -11,14 +11,22 @@
 }
     
 .title{
-    font-family: 'Courier New', Courier, monospace;
- 
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;    
     color: rgb(138, 19, 19);
 
 }
 .specs{
+    background-color: rgb(233, 226, 218);
     flex-direction: column;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image{
+        border-radius: 45px;
+    display: flex;
+    height: 250px;
+    width: 300px;
 }

@@ -1,9 +1,13 @@
 .bike_img{
     margin-top: 10px;
     border-radius: 5px;
-    height: 510px;
-    width: 50%;
+    height: 500px;
+    width: 600px;
     }
+    .bike_img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
 
 
     
@@ -11,4 +15,8 @@
     margin-top: 12px;
     text-align: center;
     margin: 20px;
+    display: flex;
+}
+.bodydescription{
+    margin-top: 70px;
 }
